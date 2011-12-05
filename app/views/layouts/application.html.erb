@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Gdyup</title>
-  <%= stylesheet_link_tag    "application" %>
+  <title>gdyup</title>
+  <%= stylesheet_link_tag    "application", "http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <div class="container">
+    <%= yield %>
+  </div>
 </body>
 </html>
