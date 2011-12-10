@@ -1189,3 +1189,1300 @@ Served asset /jquery_ujs.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Dec 04 21:08:47 -0800 2011
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:32:52 -0800 2011
+  Processing by AlarmController#new as HTML
+Rendered alarm/new.html.erb within layouts/application (40.4ms)
+Completed 200 OK in 140ms (Views: 123.0ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 20:32:52 -0800 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 20:32:52 -0800 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 20:32:52 -0800 2011
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 20:32:52 -0800 2011
+Served asset /alarm.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 20:32:52 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 20:32:52 -0800 2011
+Served asset /alarm.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:47:05 -0800 2011
+  Processing by AlarmController#new as HTML
+Rendered alarm/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 20:47:05 -0800 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 20:47:05 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 20:47:05 -0800 2011
+Served asset /alarm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 20:47:05 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 20:47:05 -0800 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 20:47:05 -0800 2011
+Served asset /alarm.css - 304 Not Modified (0ms)
+
+
+Started POST "/alarms" for 127.0.0.1 at Mon Dec 05 20:47:11 -0800 2011
+
+ActionController::RoutingError (uninitialized constant AlarmsController):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:47:57 -0800 2011
+  Processing by AlarmController#new as HTML
+Rendered alarm/new.html.erb within layouts/application (8.3ms)
+Compiled application.css  (2ms)  (pid 19579)
+Compiled application.js  (50ms)  (pid 19579)
+Completed 200 OK in 133ms (Views: 132.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 20:47:58 -0800 2011
+Served asset /alarm.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 20:47:58 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 20:47:58 -0800 2011
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 20:47:58 -0800 2011
+Served asset /alarm.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 20:47:58 -0800 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 20:47:58 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/alarms" for 127.0.0.1 at Mon Dec 05 20:48:03 -0800 2011
+
+ActionController::RoutingError (uninitialized constant AlarmsController):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:48:23 -0800 2011
+
+LoadError (Expected /Users/david/Projects/gdyup/app/controllers/alarm_controller.rb to define AlarmController):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:48:39 -0800 2011
+
+LoadError (Expected /Users/david/Projects/gdyup/app/controllers/alarm_controller.rb to define AlarmController):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:48:48 -0800 2011
+  Processing by AlarmController#new as HTML
+Rendered alarm/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 20:48:48 -0800 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 20:48:48 -0800 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 20:48:48 -0800 2011
+Served asset /alarm.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 20:48:48 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 20:48:48 -0800 2011
+Served asset /alarm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 20:48:48 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:49:45 -0800 2011
+
+ActionController::RoutingError (uninitialized constant AlarmController):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:49:46 -0800 2011
+
+ActionController::RoutingError (uninitialized constant AlarmController):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:49:46 -0800 2011
+
+ActionController::RoutingError (uninitialized constant AlarmController):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:49:46 -0800 2011
+
+ActionController::RoutingError (uninitialized constant AlarmController):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:49:56 -0800 2011
+
+ActionController::RoutingError (uninitialized constant AlarmController):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:49:57 -0800 2011
+
+ActionController::RoutingError (uninitialized constant AlarmController):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:49:57 -0800 2011
+
+ActionController::RoutingError (uninitialized constant AlarmController):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:49:57 -0800 2011
+
+ActionController::RoutingError (uninitialized constant AlarmController):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:50:41 -0800 2011
+  Processing by AlarmsController#new as HTML
+Completed 500 Internal Server Error in 15ms
+
+ActionView::MissingTemplate (Missing template alarms/new, application/new with {:formats=>[:html], :locale=>[:en, :en], :handlers=>[:builder, :erb, :coffee]}. Searched in:
+  * "/Users/david/Projects/gdyup/app/views"
+):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:51:04 -0800 2011
+  Processing by AlarmsController#new as HTML
+Rendered alarms/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 27ms (Views: 26.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 20:51:04 -0800 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 20:51:04 -0800 2011
+Served asset /alarm.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 20:51:04 -0800 2011
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 20:51:04 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 20:51:04 -0800 2011
+Served asset /alarm.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 20:51:04 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/alarms" for 127.0.0.1 at Mon Dec 05 20:51:10 -0800 2011
+  Processing by AlarmsController#create as HTML
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"w2xrBXqa8NghZzGUnZtWJbM4YoFw08EBdEVxdtVSXlk=", "utf8"=>"\342\234\223", "lead_time"=>"5", "alarm"=>{"phone"=>"4152729330"}}
+  [1m[36m (0.5ms)[0m  [1mSELECT 1 FROM "alarms" WHERE "alarms"."phone" = 4152729330 LIMIT 1[0m
+  [1m[35mSQL (7.4ms)[0m  INSERT INTO "alarms" ("created_at", "lead_time", "phone", "updated_at", "when") VALUES (?, ?, ?, ?, ?)  [["created_at", Tue, 06 Dec 2011 04:51:10 UTC +00:00], ["lead_time", nil], ["phone", 4152729330], ["updated_at", Tue, 06 Dec 2011 04:51:10 UTC +00:00], ["when", nil]]
+Redirected to http://localhost:3000/alarms/1
+Completed 302 Found in 29ms
+
+
+Started GET "/alarms/1" for 127.0.0.1 at Mon Dec 05 20:51:10 -0800 2011
+  Processing by AlarmsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAlarm Load (0.1ms)[0m  [1mSELECT "alarms".* FROM "alarms" WHERE "alarms"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered alarms/show.html.erb within layouts/application (26.5ms)
+Completed 500 Internal Server Error in 34ms
+
+ActionView::Template::Error (undefined local variable or method `alarm' for #<#<Class:0x109cf67f0>:0x109cceef8>):
+    1: <h1>gdyup</h1>
+    2: <h2>Rest assured.</h2>
+    3: <p>We'll call you at <strong><%= alarm.phone %></strong>, <strong><%= alarm.lead_time %> minutes</strong> before your first appointment.</p>
+  app/views/alarms/show.html.erb:3:in `_app_views_alarms_show_html_erb___1052592650_2229683200'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.3ms)
+
+
+Started GET "/alarms/1" for 127.0.0.1 at Mon Dec 05 20:51:37 -0800 2011
+  Processing by AlarmsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAlarm Load (0.2ms)[0m  SELECT "alarms".* FROM "alarms" WHERE "alarms"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered alarms/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 20:51:37 -0800 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 20:51:37 -0800 2011
+Served asset /alarm.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 20:51:37 -0800 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 20:51:37 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 20:51:37 -0800 2011
+Served asset /alarm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 20:51:37 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:52:50 -0800 2011
+  Processing by AlarmsController#new as HTML
+Rendered alarms/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 20:52:50 -0800 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 20:52:50 -0800 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 20:52:50 -0800 2011
+Served asset /alarm.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 20:52:50 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 20:52:50 -0800 2011
+Served asset /alarm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 20:52:50 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:53:32 -0800 2011
+  Processing by AlarmsController#new as HTML
+Rendered alarms/new.html.erb within layouts/application (27.8ms)
+Completed 500 Internal Server Error in 33ms
+
+ActionView::Template::Error (undefined method `select_field' for #<#<Class:0x1097ea130>:0x1097d48a8>):
+    12:     <div class="clearfix">
+    13:       <%= label_tag 'lead_time' %>
+    14:       <div class="input">
+    15:         <%= select_field(:lead_time, options_for_select([['None', 0], ['5 minutes', 5], ['15 minutes', 15], ['30 minutes', 30], ['1 hour', 60], ['2 hours', 120], ['3 hours', 180]])) %>
+    16:       </div>
+    17:     </div>
+    18:     <div class="actions">
+  app/views/alarms/new.html.erb:15:in `_app_views_alarms_new_html_erb___1375070233_2227079240'
+  app/views/alarms/new.html.erb:4:in `_app_views_alarms_new_html_erb___1375070233_2227079240'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:53:37 -0800 2011
+  Processing by AlarmsController#new as HTML
+Rendered alarms/new.html.erb within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (wrong number of arguments (2 for 3)):
+    12:     <div class="clearfix">
+    13:       <%= label_tag 'lead_time' %>
+    14:       <div class="input">
+    15:         <%= select(:lead_time, options_for_select([['None', 0], ['5 minutes', 5], ['15 minutes', 15], ['30 minutes', 30], ['1 hour', 60], ['2 hours', 120], ['3 hours', 180]])) %>
+    16:       </div>
+    17:     </div>
+    18:     <div class="actions">
+  app/views/alarms/new.html.erb:15:in `select'
+  app/views/alarms/new.html.erb:15:in `_app_views_alarms_new_html_erb___1375070233_2229093160'
+  app/views/alarms/new.html.erb:4:in `_app_views_alarms_new_html_erb___1375070233_2229093160'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:54:09 -0800 2011
+  Processing by AlarmsController#new as HTML
+ERROR: compiling _app_views_alarms_new_html_erb___1375070233_2226570820 RAISED compile error
+/Users/david/Projects/gdyup/app/views/alarms/new.html.erb:15: syntax error, unexpected ')', expecting kEND
+... {:include_blank => false})) );@output_buffer.safe_concat('
+                              ^
+Function body:           def _app_views_alarms_new_html_erb___1375070233_2226570820(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "alarms/new";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>gdyup</h1>
+<h2>Never set an alarm again.</h2>
+<p>We\'ll give you a wakeup call before your first appointment every day.</p>
+');@output_buffer.append=  form_for @alarm do |f| @output_buffer.safe_concat('
+');@output_buffer.safe_concat('  <fieldset>
+    <div class="clearfix">
+      ');@output_buffer.append= ( label_tag 'phone' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('      <div class="input">
+        ');@output_buffer.append= ( f.text_field :phone );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('      </div>
+    </div>
+    <div class="clearfix">
+      ');@output_buffer.append= ( label_tag 'lead_time' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('      <div class="input">
+        ');@output_buffer.append= ( select(:lead_time, options_for_select([['None', 0], ['5 minutes', 5], ['15 minutes', 15], ['30 minutes', 30], ['1 hour', 60], ['2 hours', 120], ['3 hours', 180]]), {:include_blank => false})) );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('      </div>
+    </div>
+    <div class="actions">
+      ');@output_buffer.append= ( f.submit("Create", :class => "btn primary") );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    </div>
+  </fieldset>
+'); end ;@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/david/Projects/gdyup/app/views/alarms/new.html.erb:25:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/template.rb:217:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/template.rb:170:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications.rb:55:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/template.rb:169:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/renderer.rb:17:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:99:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/rendering.rb:16:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.3/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/base.rb:167:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:416:in `_run__1767666579__process_action__943997142__callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:386:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.3/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/base.rb:121:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:45:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal.rb:193:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal.rb:236:in `action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/etag.rb:23:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/conditionalget.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/flash.rb:247:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:195:in `context'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:190:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.3/lib/active_record/query_cache.rb:64:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/sendfile.rb:101:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/rack/logger.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/runtime.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/lock.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/engine.rb:456:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/content_length.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/handler/webrick.rb:59:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/handler/webrick.rb:13:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/server.rb:265:in `start'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/commands/server.rb:70:in `start'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/commands.rb:54
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/commands.rb:49:in `tap'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/commands.rb:49
+script/rails:6:in `require'
+script/rails:6
+Rendered alarms/new.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (compile error
+/Users/david/Projects/gdyup/app/views/alarms/new.html.erb:15: syntax error, unexpected ')', expecting kEND
+... {:include_blank => false})) );@output_buffer.safe_concat('
+                              ^):
+    12:     <div class="clearfix">
+    13:       <%= label_tag 'lead_time' %>
+    14:       <div class="input">
+    15:         <%= select(:lead_time, options_for_select([['None', 0], ['5 minutes', 5], ['15 minutes', 15], ['30 minutes', 30], ['1 hour', 60], ['2 hours', 120], ['3 hours', 180]]), {:include_blank => false})) %>
+    16:       </div>
+    17:     </div>
+    18:     <div class="actions">
+  app/views/alarms/new.html.erb:25:in `compile'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:54:20 -0800 2011
+  Processing by AlarmsController#new as HTML
+ERROR: compiling _app_views_alarms_new_html_erb___1375070233_2225343240 RAISED compile error
+/Users/david/Projects/gdyup/app/views/alarms/new.html.erb:15: syntax error, unexpected ',', expecting ')'
+...s', 120], ['3 hours', 180]])), {:include_blank => false}) );...
+                              ^
+/Users/david/Projects/gdyup/app/views/alarms/new.html.erb:15: syntax error, unexpected ')', expecting kEND
+..., {:include_blank => false}) );@output_buffer.safe_concat('
+                              ^
+Function body:           def _app_views_alarms_new_html_erb___1375070233_2225343240(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "alarms/new";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>gdyup</h1>
+<h2>Never set an alarm again.</h2>
+<p>We\'ll give you a wakeup call before your first appointment every day.</p>
+');@output_buffer.append=  form_for @alarm do |f| @output_buffer.safe_concat('
+');@output_buffer.safe_concat('  <fieldset>
+    <div class="clearfix">
+      ');@output_buffer.append= ( label_tag 'phone' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('      <div class="input">
+        ');@output_buffer.append= ( f.text_field :phone );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('      </div>
+    </div>
+    <div class="clearfix">
+      ');@output_buffer.append= ( label_tag 'lead_time' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('      <div class="input">
+        ');@output_buffer.append= ( select(:lead_time, options_for_select([['None', 0], ['5 minutes', 5], ['15 minutes', 15], ['30 minutes', 30], ['1 hour', 60], ['2 hours', 120], ['3 hours', 180]])), {:include_blank => false}) );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('      </div>
+    </div>
+    <div class="actions">
+      ');@output_buffer.append= ( f.submit("Create", :class => "btn primary") );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    </div>
+  </fieldset>
+'); end ;@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/david/Projects/gdyup/app/views/alarms/new.html.erb:25:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/template.rb:217:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/template.rb:170:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications.rb:55:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/template.rb:169:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_view/renderer/renderer.rb:17:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:99:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/rendering.rb:16:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.3/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/base.rb:167:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:416:in `_run__1767666579__process_action__943997142__callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:386:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.3/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/base.rb:121:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:45:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal.rb:193:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_controller/metal.rb:236:in `action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/etag.rb:23:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/conditionalget.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/flash.rb:247:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:195:in `context'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:190:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.3/lib/active_record/query_cache.rb:64:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/sendfile.rb:101:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/rack/logger.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/runtime.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/lock.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/engine.rb:456:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/content_length.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/handler/webrick.rb:59:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/handler/webrick.rb:13:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.5/lib/rack/server.rb:265:in `start'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/commands/server.rb:70:in `start'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/commands.rb:54
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/commands.rb:49:in `tap'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.3/lib/rails/commands.rb:49
+script/rails:6:in `require'
+script/rails:6
+Rendered alarms/new.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (compile error
+/Users/david/Projects/gdyup/app/views/alarms/new.html.erb:15: syntax error, unexpected ',', expecting ')'
+...s', 120], ['3 hours', 180]])), {:include_blank => false}) );...
+                              ^
+/Users/david/Projects/gdyup/app/views/alarms/new.html.erb:15: syntax error, unexpected ')', expecting kEND
+..., {:include_blank => false}) );@output_buffer.safe_concat('
+                              ^):
+    12:     <div class="clearfix">
+    13:       <%= label_tag 'lead_time' %>
+    14:       <div class="input">
+    15:         <%= select(:lead_time, options_for_select([['None', 0], ['5 minutes', 5], ['15 minutes', 15], ['30 minutes', 30], ['1 hour', 60], ['2 hours', 120], ['3 hours', 180]])), {:include_blank => false}) %>
+    16:       </div>
+    17:     </div>
+    18:     <div class="actions">
+  app/views/alarms/new.html.erb:25:in `compile'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (50.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:54:35 -0800 2011
+  Processing by AlarmsController#new as HTML
+Rendered alarms/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 20:54:35 -0800 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 20:54:35 -0800 2011
+Served asset /alarm.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 20:54:35 -0800 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 20:54:35 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 20:54:35 -0800 2011
+Served asset /alarm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 20:54:35 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:56:06 -0800 2011
+  Processing by AlarmsController#new as HTML
+Rendered alarms/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 20:56:07 -0800 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 20:56:07 -0800 2011
+Served asset /alarm.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 20:56:07 -0800 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 20:56:07 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 20:56:07 -0800 2011
+Served asset /alarm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 20:56:07 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/alarms" for 127.0.0.1 at Mon Dec 05 20:56:16 -0800 2011
+  Processing by AlarmsController#create as HTML
+  Parameters: {"commit"=>"Create", "alarm_lead_time"=>"5", "authenticity_token"=>"w2xrBXqa8NghZzGUnZtWJbM4YoFw08EBdEVxdtVSXlk=", "utf8"=>"\342\234\223", "alarm"=>{"phone"=>"4152729330"}}
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "alarms" WHERE "alarms"."phone" = 4152729330 LIMIT 1[0m
+Rendered alarms/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 70ms (Views: 11.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 20:56:17 -0800 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 20:56:17 -0800 2011
+Served asset /alarm.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 20:56:17 -0800 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 20:56:17 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 20:56:17 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 20:56:17 -0800 2011
+Served asset /alarm.js - 304 Not Modified (0ms)
+
+
+Started POST "/alarms" for 127.0.0.1 at Mon Dec 05 20:56:58 -0800 2011
+  Processing by AlarmsController#create as HTML
+  Parameters: {"commit"=>"Create", "alarm_lead_time"=>"15", "authenticity_token"=>"w2xrBXqa8NghZzGUnZtWJbM4YoFw08EBdEVxdtVSXlk=", "utf8"=>"\342\234\223", "alarm"=>{"phone"=>"4152729331"}}
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "alarms" WHERE "alarms"."phone" = 4152729331 LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "alarms" ("created_at", "lead_time", "phone", "updated_at", "when") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Tue, 06 Dec 2011 04:56:58 UTC +00:00], ["lead_time", nil], ["phone", 4152729331], ["updated_at", Tue, 06 Dec 2011 04:56:58 UTC +00:00], ["when", nil]]
+Redirected to http://localhost:3000/alarms/2
+Completed 302 Found in 9ms
+
+
+Started GET "/alarms/2" for 127.0.0.1 at Mon Dec 05 20:56:58 -0800 2011
+  Processing by AlarmsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mAlarm Load (0.2ms)[0m  SELECT "alarms".* FROM "alarms" WHERE "alarms"."id" = ? LIMIT 1  [["id", "2"]]
+Rendered alarms/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 20:56:58 -0800 2011
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 20:56:58 -0800 2011
+Served asset /alarm.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 20:56:58 -0800 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 20:56:58 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 20:56:58 -0800 2011
+Served asset /alarm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 20:56:58 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 20:57:08 -0800 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 20:57:08 -0800 2011
+Served asset /alarm.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 20:57:08 -0800 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 20:57:08 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 20:57:08 -0800 2011
+Served asset /application.js - 304 Not Modified (71ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 20:57:08 -0800 2011
+Served asset /alarm.js - 304 Not Modified (0ms)
+
+
+Started GET "/alarms" for 127.0.0.1 at Mon Dec 05 20:59:32 -0800 2011
+
+AbstractController::ActionNotFound (The action 'index' could not be found for AlarmsController):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 20:59:38 -0800 2011
+  Processing by AlarmsController#new as HTML
+Rendered alarms/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 20:59:38 -0800 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 20:59:38 -0800 2011
+Served asset /alarm.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 20:59:38 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 20:59:38 -0800 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 20:59:38 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 20:59:38 -0800 2011
+Served asset /alarm.js - 304 Not Modified (0ms)
+
+
+Started POST "/alarms" for 127.0.0.1 at Mon Dec 05 20:59:51 -0800 2011
+  Processing by AlarmsController#create as HTML
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"w2xrBXqa8NghZzGUnZtWJbM4YoFw08EBdEVxdtVSXlk=", "utf8"=>"\342\234\223", "alarm"=>{"lead_time"=>"30", "phone"=>"4152729332"}}
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "alarms" WHERE "alarms"."phone" = 4152729332 LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "alarms" ("created_at", "lead_time", "phone", "updated_at", "when") VALUES (?, ?, ?, ?, ?)  [["created_at", Tue, 06 Dec 2011 04:59:52 UTC +00:00], ["lead_time", 30], ["phone", 4152729332], ["updated_at", Tue, 06 Dec 2011 04:59:52 UTC +00:00], ["when", nil]]
+Redirected to http://localhost:3000/alarms/3
+Completed 302 Found in 10ms
+
+
+Started GET "/alarms/3" for 127.0.0.1 at Mon Dec 05 20:59:52 -0800 2011
+  Processing by AlarmsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAlarm Load (0.1ms)[0m  [1mSELECT "alarms".* FROM "alarms" WHERE "alarms"."id" = ? LIMIT 1[0m  [["id", "3"]]
+Rendered alarms/show.html.erb within layouts/application (56.7ms)
+Completed 200 OK in 69ms (Views: 66.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 20:59:52 -0800 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 20:59:52 -0800 2011
+Served asset /alarm.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 20:59:52 -0800 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 20:59:52 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 20:59:52 -0800 2011
+Served asset /alarm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 20:59:52 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 21:02:52 -0800 2011
+  Processing by AlarmsController#new as HTML
+Rendered alarms/new.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 87ms (Views: 86.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 21:02:52 -0800 2011
+Served asset /alarm.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 21:02:52 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 21:02:52 -0800 2011
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 21:02:52 -0800 2011
+Served asset /alarm.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 21:02:52 -0800 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 21:02:52 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/alarms" for 127.0.0.1 at Mon Dec 05 21:02:55 -0800 2011
+  Processing by AlarmsController#create as HTML
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"w2xrBXqa8NghZzGUnZtWJbM4YoFw08EBdEVxdtVSXlk=", "utf8"=>"\342\234\223", "alarm"=>{"lead_time"=>"0", "phone"=>"4152729330"}}
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "alarms" WHERE "alarms"."phone" = 4152729330 LIMIT 1[0m
+Rendered alarms/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 25ms (Views: 11.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 21:02:55 -0800 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 21:02:55 -0800 2011
+Served asset /alarm.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 21:02:55 -0800 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 21:02:55 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 21:02:55 -0800 2011
+Served asset /alarm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 21:02:55 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/alarms" for 127.0.0.1 at Mon Dec 05 21:03:12 -0800 2011
+  Processing by AlarmsController#create as HTML
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"w2xrBXqa8NghZzGUnZtWJbM4YoFw08EBdEVxdtVSXlk=", "utf8"=>"\342\234\223", "alarm"=>{"lead_time"=>"0", "phone"=>"4152729330"}}
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "alarms" WHERE "alarms"."phone" = 4152729330 LIMIT 1
+Rendered alarms/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 19ms (Views: 12.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 21:03:13 -0800 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 21:03:13 -0800 2011
+Served asset /alarm.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 21:03:13 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 21:03:13 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 21:03:13 -0800 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 21:03:13 -0800 2011
+Served asset /alarm.js - 304 Not Modified (0ms)
+
+
+Started POST "/alarms" for 127.0.0.1 at Mon Dec 05 21:04:13 -0800 2011
+  Processing by AlarmsController#create as HTML
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"w2xrBXqa8NghZzGUnZtWJbM4YoFw08EBdEVxdtVSXlk=", "utf8"=>"\342\234\223", "alarm"=>{"lead_time"=>"0", "phone"=>"4152729330"}}
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "alarms" WHERE "alarms"."phone" = 4152729330 LIMIT 1[0m
+Rendered alarms/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 19ms (Views: 12.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 21:04:13 -0800 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 21:04:13 -0800 2011
+Served asset /alarm.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 21:04:13 -0800 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 21:04:13 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 21:04:13 -0800 2011
+Served asset /alarm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 21:04:13 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/alarms" for 127.0.0.1 at Mon Dec 05 21:04:15 -0800 2011
+  Processing by AlarmsController#create as HTML
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"w2xrBXqa8NghZzGUnZtWJbM4YoFw08EBdEVxdtVSXlk=", "utf8"=>"\342\234\223", "alarm"=>{"lead_time"=>"0", "phone"=>"4152729330"}}
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "alarms" WHERE "alarms"."phone" = 4152729330 LIMIT 1
+Rendered alarms/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 19ms (Views: 12.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 21:04:15 -0800 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 21:04:15 -0800 2011
+Served asset /alarm.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 21:04:15 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 21:04:15 -0800 2011
+Served asset /alarm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 21:04:15 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 21:04:15 -0800 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/alarms" for 127.0.0.1 at Mon Dec 05 21:04:25 -0800 2011
+  Processing by AlarmsController#create as HTML
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"w2xrBXqa8NghZzGUnZtWJbM4YoFw08EBdEVxdtVSXlk=", "utf8"=>"\342\234\223", "alarm"=>{"lead_time"=>"0", "phone"=>"4152729330"}}
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "alarms" WHERE "alarms"."phone" = 4152729330 LIMIT 1[0m
+Rendered alarms/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 87ms (Views: 74.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 21:04:26 -0800 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 21:04:26 -0800 2011
+Served asset /alarm.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 21:04:26 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 21:04:26 -0800 2011
+Served asset /alarm.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 21:04:26 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 21:04:26 -0800 2011
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Dec 05 21:20:05 -0800 2011
+  Processing by AlarmsController#new as HTML
+Rendered alarms/new.html.erb within layouts/application (10.3ms)
+Compiled application.css  (2ms)  (pid 19775)
+Compiled bootstrap.css  (1ms)  (pid 19775)
+Completed 200 OK in 145ms (Views: 144.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at Mon Dec 05 21:20:05 -0800 2011
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 21:20:05 -0800 2011
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 21:20:05 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 21:20:05 -0800 2011
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 21:20:05 -0800 2011
+Served asset /alarm.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 21:20:05 -0800 2011
+Served asset /alarm.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 21:20:05 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/alarms" for 127.0.0.1 at Mon Dec 05 21:20:08 -0800 2011
+  Processing by AlarmsController#create as HTML
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"w2xrBXqa8NghZzGUnZtWJbM4YoFw08EBdEVxdtVSXlk=", "utf8"=>"\342\234\223", "alarm"=>{"lead_time"=>"0", "phone"=>""}}
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "alarms" WHERE "alarms"."phone" IS NULL LIMIT 1[0m
+Rendered alarms/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 52ms (Views: 36.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 21:20:08 -0800 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 21:20:08 -0800 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 21:20:08 -0800 2011
+Served asset /alarm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 21:20:08 -0800 2011
+Served asset /alarm.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 21:20:08 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at Mon Dec 05 21:20:08 -0800 2011
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 21:20:08 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/alarms/1" for 127.0.0.1 at Mon Dec 05 21:45:32 -0800 2011
+  Processing by AlarmsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAlarm Load (0.5ms)[0m  SELECT "alarms".* FROM "alarms" WHERE "alarms"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered alarms/show.html.erb within layouts/application (3.7ms)
+Compiled application.css  (2ms)  (pid 19775)
+Completed 200 OK in 40ms (Views: 37.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Dec 05 21:45:32 -0800 2011
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 21:45:32 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 21:45:32 -0800 2011
+Served asset /alarm.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 21:45:32 -0800 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 21:45:32 -0800 2011
+Served asset /alarm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 21:45:32 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/alarms/2" for 127.0.0.1 at Mon Dec 05 21:45:35 -0800 2011
+  Processing by AlarmsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAlarm Load (0.1ms)[0m  [1mSELECT "alarms".* FROM "alarms" WHERE "alarms"."id" = ? LIMIT 1[0m  [["id", "2"]]
+Rendered alarms/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 18ms (Views: 15.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/alarm.css?body=1" for 127.0.0.1 at Mon Dec 05 21:45:35 -0800 2011
+Served asset /alarm.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Dec 05 21:45:35 -0800 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Dec 05 21:45:35 -0800 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/alarm.js?body=1" for 127.0.0.1 at Mon Dec 05 21:45:35 -0800 2011
+Served asset /alarm.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Dec 05 21:45:35 -0800 2011
+Served asset /application.js - 304 Not Modified (0ms)
